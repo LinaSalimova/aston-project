@@ -5,8 +5,7 @@ public class ExerciseFirst {
     public static void main(String[] args) {
         Scanner num = new Scanner(System.in);
         System.out.println("Введите число:");
-        int i;
-        i = num.nextInt();
+        int i = num.nextInt();
         if (i > 7) {
             System.out.println("Привет");
         } else {
